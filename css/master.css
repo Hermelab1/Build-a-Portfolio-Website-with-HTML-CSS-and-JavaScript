@@ -129,9 +129,8 @@ a:hover{
 
 /*Sections-home*/
 section{
-    padding-top: 4vh;  
-    border: red solid;
-    height: 96vh;
+    padding-top: 5vh;  
+    height: 95vh;
     margin: 0 5rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -167,7 +166,6 @@ section{
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    
 }
 .home-section-text-p2{
     text-align: center;
@@ -233,6 +231,58 @@ section{
 .btn-container{
     gap: 1rem;
 }
+
+/*About Section*/
+#about{
+    position: relative;
+}
+.section__pic-container{
+    gap: 2rem;
+    display: flex;
+}
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about-details-container{
+    justify-content:center;
+    flex-direction: column;
+}
+.about-containers, .about-details-container{
+    display: flex;
+}
+.about_pic{
+    border-radius: 2rem;
+}
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53)0.1rem solid;
+    border-color: rgb(163, 163, 163) ;
+    text-align: center;
+}
+.arrow-up{
+
+    position: absolute;
+    right: -2rem;
+    top: 2.5rem;
+}
+
+.arrow-down{
+
+    position: absolute;
+    right: -2rem;
+    bottom: 2.5rem;
+}
+
+
+
+
+
+
 
 
 
